@@ -2,23 +2,18 @@
 
 Official update channel for **Toutiao Video Pipeline / 头条视频流水线助手**.
 
-This public repository contains:
-
-- the version manifest used by the app's **检查更新** button;
-- verified Windows update packages;
-- release notes and package integrity hashes.
-
-It does **not** contain user API keys, downloaded videos, thumbnails, publishing records, or the local workflow database.
+This public repository contains the current version manifest, verified Windows update packages, release notes, and package integrity hashes. It does not contain user API keys, videos, thumbnails, publishing records, or local workflow data.
 
 ## Current release
 
-Version **0.2.1**
+Version **0.2.2**
 
-- The installer now creates a desktop shortcut automatically.
-- Startup failures now show a visible message and save a diagnostic log.
-- Added a diagnostic launcher for easier troubleshooting.
-- Kept GitHub update checking and SHA-256 verification.
+- Fixed Windows CMD encoding errors that caused Chinese text to be interpreted as commands.
+- Converted every BAT and PowerShell installer/launcher script to ASCII with Windows CRLF line endings.
+- Kept the Chinese application interface.
+- The installer creates a desktop shortcut.
+- Startup failures show a visible message and save a diagnostic log.
 
 ## Integrity
 
-The app verifies each downloaded package against the SHA-256 value in `version.json` before presenting it to the user.
+The app verifies each downloaded package against the SHA-256 value in `version.json`.

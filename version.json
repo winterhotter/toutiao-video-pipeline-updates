@@ -1,13 +1,13 @@
 {
-  "version": "0.2.1",
-  "package_url": "https://raw.githubusercontent.com/winterhotter/toutiao-video-pipeline-updates/main/releases/Toutiao_Video_Pipeline_Windows_v0.2.1.zip",
-  "sha256": "575459928a6fbb166cb1f5917f611f576d1cb87cf6458846cc7885faa73573f5",
+  "version": "0.2.2",
+  "package_url": "https://raw.githubusercontent.com/winterhotter/toutiao-video-pipeline-updates/main/releases/Toutiao_Video_Pipeline_Windows_v0.2.2.zip",
+  "sha256": "e068dd2170e6ac398042b43291b78b32b99faa0b7debda278d197d266d95f250",
   "published_at": "2026-07-11",
   "release_notes": [
+    "修复Windows批处理中文编码导致的is not recognized错误",
+    "所有安装和启动脚本改为纯ASCII并使用Windows CRLF换行",
+    "软件启动后的界面仍然保持中文",
     "安装完成后自动创建桌面快捷方式",
-    "启动失败时弹出错误提示，不再无声消失",
-    "自动保存startup_error.log诊断日志",
-    "新增start_windows_debug.bat诊断启动方式",
-    "继续支持GitHub检查更新和SHA-256校验"
+    "启动失败时显示错误提示并保存诊断日志"
   ]
 }
