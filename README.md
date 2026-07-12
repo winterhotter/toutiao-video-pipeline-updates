@@ -2,17 +2,16 @@
 
 Official update channel for **Toutiao Video Pipeline / 头条视频流水线助手**.
 
-This public repository contains the current version manifest, verified Windows update packages, release notes, and package integrity hashes. It does not contain user API keys, videos, thumbnails, publishing records, or local workflow data.
+This repository contains the current version manifest and verified Windows packages. It does not contain API keys, videos, thumbnails, publishing records, or local workflow data.
 
-## Current release
+## Current release: 0.3.0
 
-Version **0.2.2**
-
-- Fixed Windows CMD encoding errors that caused Chinese text to be interpreted as commands.
-- Converted every BAT and PowerShell installer/launcher script to ASCII with Windows CRLF line endings.
-- Kept the Chinese application interface.
-- The installer creates a desktop shortcut.
-- Startup failures show a visible message and save a diagnostic log.
+- Added a no-API ChatGPT workflow for titles, descriptions, tags, and cover backgrounds.
+- One button copies the complete task and opens ChatGPT plus the reference-image folder.
+- ChatGPT JSON can be pasted back to fill Chinese publishing metadata automatically.
+- The app can locate the newest downloaded ChatGPT image.
+- Generates three 1280x720 ASMR cover variants plus a 900x383 Toutiao cover.
+- Retains the encoding-safe Windows installer, desktop shortcut, diagnostics, and SHA-256 update verification.
 
 ## Integrity
 

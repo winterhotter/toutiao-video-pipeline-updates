@@ -1,13 +1,14 @@
 {
-  "version": "0.2.2",
-  "package_url": "https://raw.githubusercontent.com/winterhotter/toutiao-video-pipeline-updates/main/releases/Toutiao_Video_Pipeline_Windows_v0.2.2.zip",
-  "sha256": "e068dd2170e6ac398042b43291b78b32b99faa0b7debda278d197d266d95f250",
-  "published_at": "2026-07-11",
+  "version": "0.3.0",
+  "package_url": "https://raw.githubusercontent.com/winterhotter/toutiao-video-pipeline-updates/main/releases/Toutiao_Video_Pipeline_Windows_v0.3.0.zip",
+  "sha256": "a9ab3f907b09ab43ad61515b761260422297b4b5f2da85a498007a712d1527ba",
+  "published_at": "2026-07-12",
   "release_notes": [
-    "修复Windows批处理中文编码导致的is not recognized错误",
-    "所有安装和启动脚本改为纯ASCII并使用Windows CRLF换行",
-    "软件启动后的界面仍然保持中文",
-    "安装完成后自动创建桌面快捷方式",
-    "启动失败时显示错误提示并保存诊断日志"
+    "新增无需API的ChatGPT会员工作流",
+    "一键复制标题与封面任务并同时打开ChatGPT和参考图文件夹",
+    "粘贴ChatGPT JSON后自动填入中文标题、备选标题、简介和标签",
+    "自动查找下载文件夹中最新的ChatGPT图片",
+    "自动生成红黄爆款、金色挑战、白红冲击三套16:9封面",
+    "同时生成900×383头条宽幅封面"
   ]
 }
