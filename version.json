@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "package_url": "https://raw.githubusercontent.com/winterhotter/toutiao-video-pipeline-updates/main/releases/Toutiao_Video_Pipeline_Windows_v0.2.0.zip",
+  "sha256": "6d76a8449a6180ba18425e77eb07180b3a84e964327d2a704368b49eeeeb2b41",
+  "published_at": "2026-07-11",
+  "release_notes": [
+    "新增GitHub检查更新按钮",
+    "显示当前版本、最新版本和更新说明",
+    "更新包下载前需要用户确认",
+    "下载后自动执行SHA-256完整性校验",
+    "授权链接默认记录为已获得版权授权"
+  ]
+}
