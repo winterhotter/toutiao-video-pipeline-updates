@@ -12,12 +12,12 @@ It does **not** contain user API keys, downloaded videos, thumbnails, publishing
 
 ## Current release
 
-Version **0.2.0**
+Version **0.2.1**
 
-- Added GitHub update checking.
-- Added release notes and version comparison.
-- Added SHA-256 package verification.
-- Updates download only after user confirmation.
+- The installer now creates a desktop shortcut automatically.
+- Startup failures now show a visible message and save a diagnostic log.
+- Added a diagnostic launcher for easier troubleshooting.
+- Kept GitHub update checking and SHA-256 verification.
 
 ## Integrity
 

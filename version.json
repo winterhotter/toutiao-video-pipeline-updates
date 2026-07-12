@@ -1,13 +1,13 @@
 {
-  "version": "0.2.0",
-  "package_url": "https://raw.githubusercontent.com/winterhotter/toutiao-video-pipeline-updates/main/releases/Toutiao_Video_Pipeline_Windows_v0.2.0.zip",
-  "sha256": "6d76a8449a6180ba18425e77eb07180b3a84e964327d2a704368b49eeeeb2b41",
+  "version": "0.2.1",
+  "package_url": "https://raw.githubusercontent.com/winterhotter/toutiao-video-pipeline-updates/main/releases/Toutiao_Video_Pipeline_Windows_v0.2.1.zip",
+  "sha256": "575459928a6fbb166cb1f5917f611f576d1cb87cf6458846cc7885faa73573f5",
   "published_at": "2026-07-11",
   "release_notes": [
-    "新增GitHub检查更新按钮",
-    "显示当前版本、最新版本和更新说明",
-    "更新包下载前需要用户确认",
-    "下载后自动执行SHA-256完整性校验",
-    "授权链接默认记录为已获得版权授权"
+    "安装完成后自动创建桌面快捷方式",
+    "启动失败时弹出错误提示，不再无声消失",
+    "自动保存startup_error.log诊断日志",
+    "新增start_windows_debug.bat诊断启动方式",
+    "继续支持GitHub检查更新和SHA-256校验"
   ]
 }
